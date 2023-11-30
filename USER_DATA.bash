@@ -20,7 +20,7 @@ sudo npm install pm2 -g
 cd /home/ec2-user
 
 # Clone the repository
-git clone -b example https://github.com/Jame-AS/Server.git
+git clone -b example https://github.com/Jame-AS/server.git
 
 # Navigate to the project directory and install dependencies
 cd CS100-Project-G27/Backend
@@ -43,9 +43,9 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # Copy HTML, JS, and CSS files to Nginx's web directory
-sudo cp -r /home/ec2-user/CS100-Project-G27/html /usr/share/nginx/html/
-sudo cp -r /home/ec2-user/CS100-Project-G27/JS /usr/share/nginx/html/
-sudo cp /home/ec2-user/CS100-Project-G27/CSS /usr/share/nginx/html/
+sudo cp -r /home/ec2-user/Jame-AS/html /usr/share/nginx/html/
+sudo cp -r /home/ec2-user/Jame-AS/JS /usr/share/nginx/html/
+sudo cp /home/ec2-user/Jame-AS/CSS /usr/share/nginx/html/
 sudo cp /home/ec2-user/CS100-Project-G27/index.html /usr/share/nginx/html/
 sudo cp /home/ec2-user/CS100-Project-G27/ourActivity.html /usr/share/nginx/html/
 
