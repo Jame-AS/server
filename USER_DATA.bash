@@ -46,8 +46,6 @@ sudo systemctl enable nginx
 sudo cp -r /home/ec2-user/Jame-AS/html /usr/share/nginx/html/
 sudo cp -r /home/ec2-user/Jame-AS/JS /usr/share/nginx/html/
 sudo cp /home/ec2-user/Jame-AS/CSS /usr/share/nginx/html/
-sudo cp /home/ec2-user/CS100-Project-G27/index.html /usr/share/nginx/html/
-sudo cp /home/ec2-user/CS100-Project-G27/ourActivity.html /usr/share/nginx/html/
 
 # Restart Nginx to reflect the changes
 sudo systemctl restart nginx
