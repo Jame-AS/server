@@ -23,7 +23,7 @@ cd /home/ec2-user
 git clone -b example https://github.com/Jame-AS/server.git
 
 # Navigate to the project directory and install dependencies
-cd CS100-Project-G27/Backend
+cd Jame-AS/Backend
 sudo npm install
 
 # Start the application using pm2
